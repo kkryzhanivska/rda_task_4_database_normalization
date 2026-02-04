@@ -36,22 +36,22 @@ CREATE TABLE ProductInventory (
 
 -- Populate test data
 
---INSERT INTO Countries (ID,Name)
---	VALUES (1, 'Country1');
---INSERT INTO Countries (ID,Name)
---	VALUES (2, 'Country2');
---
---INSERT INTO Warehouses (ID, WarehouseName, WarehouseAddress)
---    VALUES (1, 'Warehouse-1', 'City-1, Street-1');
---INSERT INTO Warehouses (ID, WarehouseName, WarehouseAddress)
---    VALUES (2, 'Warehouse-2', 'City-2, Street-2');
---
---INSERT INTO Products (ID, ProductName, CountryID)
---    VALUES (1, 'AwesomeProduct', 1);
---INSERT INTO Products (ID, ProductName, CountryID)
---    VALUES (2, 'AwesomeProduct', 2);
---
---INSERT INTO ProductInventory (ID, ProductID, WarehouseAmount, WarehouseID)
---	VALUES (1, 1, 2, 1);
---INSERT INTO ProductInventory (ID, ProductID, WarehouseAmount, WarehouseID)
---	VALUES (2, 2, 5, 2);
+INSERT INTO Countries (ID,Name)
+	VALUES (1, 'Country1');
+INSERT INTO Countries (ID,Name)
+	VALUES (2, 'Country2');
+
+INSERT INTO Warehouses (ID, WarehouseName, WarehouseAddress)
+    VALUES (1, 'Warehouse-1', 'City-1, Street-1');
+INSERT INTO Warehouses (ID, WarehouseName, WarehouseAddress)
+    VALUES (2, 'Warehouse-2', 'City-2, Street-2');
+
+INSERT INTO Products (ID, ProductName, CountryID)
+    VALUES (1, 'AwesomeProduct', 1);
+INSERT INTO Products (ID, ProductName, CountryID)
+    VALUES (2, 'AwesomeProduct', 2);
+
+INSERT INTO ProductInventory (ID, ProductID, WarehouseAmount, WarehouseID)
+	VALUES (1, 1, 2, 1);
+INSERT INTO ProductInventory (ID, ProductID, WarehouseAmount, WarehouseID)
+	VALUES (2, 2, 5, 2);
